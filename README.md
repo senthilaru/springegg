@@ -25,6 +25,6 @@ After Sleep:Thread[http-bio-8080-exec-7,5,main]::e8c6fb3e-073d-497d-bde9-63e87b3
 
 Observation:
 ============
-Usually, the AutoWired will happen during instance creation, but here the "request" (Class variable) object is wired properly, for each & every method call..!!
+Usually, the "@AutoWired" will happen during instance creation, but here the "request" (Class variable) object is wired properly, for each & every method call..!!
 All these due to Dynamic Proxy usage by spring framework.. 
 
